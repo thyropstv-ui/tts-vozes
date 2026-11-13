@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gerador | Thyrops Live</title>
+<meta name="description" content="Gere áudio com as vozes do catálogo usando a sua chave do Fish Audio.">
+<meta name="theme-color" content="#050718">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tema.css">
+<style>
+  .painel{--co:16px;margin-top:18px}
+  .painel .hud-in{padding:20px}
+  .grade-form{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+  .campo label{display:block;margin-bottom:5px;font:500 14px var(--textos);color:var(--mudo)}
+  .campo--cheio{grid-column:1/-1}
+  .sep{height:1px;margin:18px 0;background:linear-gradient(90deg,var(--linha),transparent)}
+  .voz-info{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;margin-top:10px;font-size:14px;color:var(--mudo)}
+  .link-btn{appearance:none;background:none;border:0;padding:0;cursor:pointer;font:inherit;color:#9fb4ff;text-decoration:underline}
+  .link-btn:hover{color:var(--ciano)}
+  .acoes{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:14px}
+  #status{min-height:22px;font-size:14px}
+  #status.erro{color:var(--erro)}
+  #status.ok{color:var(--ok)}
+  details{margin-top:16px}
+  summary{cursor:pointer;font-size:14px;color:var(--mudo)}
+  summary:focus-visible{outline:2px solid var(--ciano);outline-offset:3px}
+  .check{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:14px;color:var(--texto)}
+  .hist{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+  .hist-vazio{color:var(--mudo);font-size:14px}
+  .item{padding:12px;background:rgba(8,11,39,.8);border:1px solid var(--linha)}
+  .item small{display:block;margin-bottom:8px;color:var(--mudo);font-size:13px}
+  .item audio{width:100%}
+  .item a{display:inline-block;margin-top:8px;font-size:14px}
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header class="topo">
+    <a class="marca" href="./" aria-label="Thyrops Live, início"><img src="assets/logo.png" alt="Thyrops Live" width="152" height="92"></a>
+    <nav class="nav-abas" aria-label="Páginas">
+      <a class="aba" href="./">Vozes</a>
+      <a class="aba" href="gerador.html" aria-current="page">Gerador</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="titulo"><h2>Gerar áudio</h2></div>
+    <p style="margin:8px 0 0;color:var(--mudo);max-width:62ch">Escreva um texto e ouça com a voz escolhida. A geração usa os créditos da sua conta no Fish Audio.</p>
+
+    <section class="hud painel">
+      <div class="hud-in">
+        <div class="grade-form">
+          <div class="campo campo--cheio">
+            <label for="apikey">Sua API key do Fish Audio (fica salva só neste navegador)</label>
+            <input id="apikey" class="entrada" type="password" placeholder="Cole a chave aqui" autocomplete="off">
+          </div>
+          <div class="campo">
+            <label for="model">Modelo</label>
+            <select id="model" class="entrada">
+              <option value="s1">s1</option>
+              <option value="speech-1.6">speech-1.6</option>
+              <option value="speech-1.5">speech-1.5</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="format">Formato</label>
+            <select id="format" class="entrada"><option>mp3</option><option>wav</option></select>
+          </div>
+        </div>
+
+        <div class="sep"></div>
+
+        <div class="grade-form">
+          <div class="campo">
+            <label for="cat">Categoria</label>
+            <select id="cat" class="entrada"></select>
+          </div>
+          <div class="campo">
+            <label for="voz">Voz</label>
+            <select id="voz" class="entrada"></select>
+          </div>
+        </div>
+        <div class="voz-info" id="vozinfo" hidden>
+          <span id="vozdesc"></span>
+          <button type="button" class="link-btn" id="copiarid">Copiar ID</button>
+          <a id="linkfish" href="#" target="_blank" rel="noopener">Ver no Fish Audio</a>
+        </div>
+
+        <div class="campo" style="margin-top:14px">
+          <label for="texto">Texto</label>
+          <textarea id="texto" class="entrada" placeholder="Digite o que a voz vai falar"></textarea>
+        </div>
+
+        <div class="acoes">
+          <button type="button" class="botao" id="gerar">Gerar áudio</button>
+          <div id="status" role="status" aria-live="polite"></div>
+        </div>
+
+        <details>
+          <summary>Avançado</summary>
+          <div class="campo" style="margin-top:10px">
+            <label for="apiurl">URL da API (mude só se for usar um proxy)</label>
+            <input id="apiurl" class="entrada" value="https://api.fish.audio/v1/tts">
+          </div>
+          <label class="check"><input type="checkbox" id="usevol" checked> Aplicar o ajuste de volume da voz (campo "volume" do JSON, em %)</label>
+        </details>
+      </div>
+    </section>
+
+    <div class="titulo"><h2>Histórico</h2></div>
+    <div class="hist" id="hist"><span class="hist-vazio">Os áudios gerados aparecem aqui.</span></div>
+  </main>
+
+  <footer class="rodape">
+    <p class="aviso">Projeto não oficial. As vozes pertencem aos seus criadores no Fish Audio. Não use para enganar ou se passar por pessoas reais.</p>
+  </footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="voices.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+let grupos = [], sel = null;
+
+function toast(t){
+  const el = $("#toast"); el.textContent = t; el.classList.add("show");
+  clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("show"), 1600);
+}
+function setStatus(t, cls){ const s = $("#status"); s.textContent = t; s.className = cls || ""; }
+
+/* ---------- escolha da voz ---------- */
+function desenhaVozes(){
+  const sv = $("#voz"), c = $("#cat").value, anterior = sel && sel.id;
+  sv.innerHTML = "";
+  grupos.filter(g => !c || g.nome === c).forEach(g => g.subs.forEach(s => {
+    const og = document.createElement("optgroup");
+    og.label = c ? s.nome : g.nome + " › " + s.nome;
+    s.vozes.forEach(v => {
+      const o = document.createElement("option");
+      o.value = v.id; o.textContent = limpo(v.nome); o._v = v;
+      og.appendChild(o);
+    });
+    sv.appendChild(og);
+  }));
+  if (anterior && [...sv.options].some(o => o.value === anterior)) sv.value = anterior;
+  escolhe();
+}
+
+function escolhe(){
+  const o = $("#voz").selectedOptions[0];
+  sel = o ? o._v : null;
+  $("#vozinfo").hidden = !sel;
+  if (!sel) return;
+  $("#vozdesc").textContent = sel.descricao || "";
+  $("#linkfish").href = "https://fish.audio/m/" + sel.id + "/";
+}
+
+/* ---------- ganho de volume (campo "volume" do JSON) ---------- */
+async function aplicaGanho(blob, pct){
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const buf = await ctx.decodeAudioData(await blob.arrayBuffer());
+  const gain = Math.max(0.1, 1 + pct / 100);
+  const off = new OfflineAudioContext(buf.numberOfChannels, buf.length, buf.sampleRate);
+  const src = off.createBufferSource(); src.buffer = buf;
+  const g = off.createGain(); g.gain.value = gain;
+  const comp = off.createDynamicsCompressor();   // evita estourar o áudio
+  src.connect(g); g.connect(comp); comp.connect(off.destination); src.start();
+  const out = await off.startRendering();
+  ctx.close();
+  return bufferParaWav(out);
+}
+
+function bufferParaWav(buf){
+  const ch = buf.numberOfChannels, len = buf.length, sr = buf.sampleRate;
+  const ab = new ArrayBuffer(44 + len * ch * 2), v = new DataView(ab);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); v.setUint32(4, 36 + len * ch * 2, true); w(8, "WAVE"); w(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, ch, true);
+  v.setUint32(24, sr, true); v.setUint32(28, sr * ch * 2, true); v.setUint16(32, ch * 2, true);
+  v.setUint16(34, 16, true); w(36, "data"); v.setUint32(40, len * ch * 2, true);
+  const data = []; for (let c = 0; c < ch; c++) data.push(buf.getChannelData(c));
+  let o = 44;
+  for (let i = 0; i < len; i++) for (let c = 0; c < ch; c++) {
+    const s = Math.max(-1, Math.min(1, data[c][i]));
+    v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7fff, true); o += 2;
+  }
+  return new Blob([ab], { type: "audio/wav" });
+}
+
+/* ---------- geração ---------- */
+$("#gerar").onclick = async () => {
+  const key = $("#apikey").value.trim();
+  const texto = $("#texto").value.trim();
+  if (!sel) return setStatus("Escolha uma voz.", "erro");
+  if (!key) return setStatus("Cole a sua API key do Fish Audio.", "erro");
+  if (!texto) return setStatus("Digite um texto.", "erro");
+  try {
+    localStorage.setItem("fish_key", key);
+    localStorage.setItem("fish_model", $("#model").value);
+    localStorage.setItem("fish_fmt", $("#format").value);
+  } catch (e) {}
+
+  const btn = $("#gerar"); btn.disabled = true; setStatus("Gerando…");
+  try {
+    const r = await fetch($("#apiurl").value.trim(), {
+      method: "POST",
+      headers: { "Authorization": "Bearer " + key, "Content-Type": "application/json", "model": $("#model").value },
+      body: JSON.stringify({ text: texto, reference_id: sel.id, format: $("#format").value, latency: "normal" }),
+    });
+    if (!r.ok) {
+      let msg = await r.text();
+      if (r.status === 401) msg = "API key inválida.";
+      if (r.status === 402) msg = "Sem créditos na conta do Fish Audio.";
+      throw new Error(r.status + ": " + msg);
+    }
+    let blob = await r.blob();
+    let ext = $("#format").value;
+    if ($("#usevol").checked && sel.volume) { blob = await aplicaGanho(blob, sel.volume); ext = "wav"; }
+    addHist(blob, ext, texto);
+    setStatus("Áudio gerado.", "ok");
+  } catch (e) {
+    const cors = e instanceof TypeError ? " Pode ser bloqueio de CORS: use um proxy (veja o README)." : "";
+    setStatus("Não foi possível gerar. " + e.message + cors, "erro");
+  } finally { btn.disabled = false; }
+};
+
+function addHist(blob, ext, texto){
+  const h = $("#hist");
+  if (h.firstElementChild && !h.firstElementChild.classList.contains("item")) h.innerHTML = "";
+  const url = URL.createObjectURL(blob);
+  const nome = limpo(sel.nome) + "_" + Date.now() + "." + ext;
+  const d = document.createElement("div"); d.className = "item";
+  const small = document.createElement("small");
+  small.textContent = limpo(sel.nome) + ": " + texto.slice(0, 80);
+  const a = document.createElement("audio"); a.controls = true; a.src = url;
+  const dl = document.createElement("a"); dl.href = url; dl.download = nome; dl.textContent = "Baixar áudio";
+  d.append(small, a, dl);
+  h.prepend(d);
+  a.play().catch(() => {});
+}
+
+/* ---------- início ---------- */
+async function init(){
+  try {
+    $("#apikey").value = localStorage.getItem("fish_key") || "";
+    $("#model").value = localStorage.getItem("fish_model") || "s1";
+    $("#format").value = localStorage.getItem("fish_fmt") || "mp3";
+  } catch (e) {}
+
+  try { grupos = agrupaVozes(await carregaVozes()); }
+  catch (e) { return setStatus("Não foi possível carregar a lista de vozes (custom_voices.json).", "erro"); }
+
+  const sc = $("#cat");
+  sc.innerHTML = '<option value="">Todas as categorias</option>';
+  grupos.forEach(g => { const o = document.createElement("option"); o.value = g.nome; o.textContent = g.nome; sc.appendChild(o); });
+  sc.onchange = desenhaVozes;
+  $("#voz").onchange = escolhe;
+  $("#copiarid").onclick = async () => {
+    if (!sel) return;
+    try { await navigator.clipboard.writeText(sel.id); toast("ID copiado"); } catch (e) { toast("Não foi possível copiar"); }
+  };
+  desenhaVozes();
+}
+init();
+</script>
+</body>
+</html>

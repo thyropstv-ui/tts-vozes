@@ -1,0 +1,1378 @@
+[
+  {
+    "nome": "!anya",
+    "id": "ffe41701970d4b339ef7906300716f99",
+    "descricao": "De Spy x Family",
+    "volume": 25,
+    "categoria": "Animes",
+    "subcategoria": "Spy x Family"
+  },
+  {
+    "nome": "!chaves",
+    "id": "1b33bafff1f148539bfb06344126b25a",
+    "descricao": "De Chaves",
+    "volume": 10,
+    "categoria": "Séries de TV",
+    "subcategoria": "Chaves"
+  },
+  {
+    "nome": "!chaves_2",
+    "id": "8548d3e9d4e74482a648a7c276d89294",
+    "descricao": "De Chaves",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Chaves"
+  },
+  {
+    "nome": "!seu_madruga",
+    "id": "19df78d004434c8ba050561d5c5a86ec",
+    "descricao": "De Chaves",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Chaves"
+  },
+  {
+    "nome": "!kiko",
+    "id": "82ac332bc1c141d08cc61fd0f0d6547a",
+    "descricao": "De Chaves",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Chaves"
+  },
+  {
+    "nome": "!dona_florinda",
+    "id": "d1e3618cd0954216a980e560a5e057e1",
+    "descricao": "De Chaves",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Chaves"
+  },
+  {
+    "nome": "!sr_omar",
+    "id": "f2f23ff1a79c4e0e895b4a643e68f2fa",
+    "descricao": "Senhor Omar",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!chris",
+    "id": "4b215a58407c4def88e0892def6421b2",
+    "descricao": "De Todo Mundo Odeia o Chris",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!chris_2",
+    "id": "d65c6d85022b46458b9d2347769c0766",
+    "descricao": "De Todo Mundo Odeia o Chris",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!rochele",
+    "id": "898d96e6765e466191e21dbfba19dd99",
+    "descricao": "De Todo Mundo Odeia o Chris",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!greg",
+    "id": "673faf8a9c4142a8b207cf5b9e574015",
+    "descricao": "De Todo Mundo Odeia o Chris",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!julius",
+    "id": "733261dd2c1944009ceb33bfadd3935b",
+    "descricao": "De Todo Mundo Odeia o Chris",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Todo Mundo Odeia o Chris"
+  },
+  {
+    "nome": "!picapau",
+    "id": "5160b0e8ca854d7e94403b2500ee582b",
+    "descricao": "De Pica-Pau",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Pica-Pau"
+  },
+  {
+    "nome": "!narrador_picapau",
+    "id": "c9a66cf48edb41bfb2f6e781d021ed5b",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!bob_sponja",
+    "id": "01b057e7592b4b97a6963423f91f5e22",
+    "descricao": "De Bob Esponja",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Bob Esponja"
+  },
+  {
+    "nome": "!bob_sponja_2",
+    "id": "8b9c7b29c75b4198aba8cc0457cd2030",
+    "descricao": "De Bob Esponja",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Bob Esponja"
+  },
+  {
+    "nome": "!srsirigueijo",
+    "id": "feb8db8e9f364804a7759663359a483e",
+    "descricao": "De Bob Esponja",
+    "volume": 15,
+    "categoria": "Desenhos",
+    "subcategoria": "Bob Esponja"
+  },
+  {
+    "nome": "!plankton",
+    "id": "84300d9b3d524313b5eebea451b4821f",
+    "descricao": "De Bob Esponja",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Bob Esponja"
+  },
+  {
+    "nome": "!goku",
+    "id": "dece2a4c7f8d476b8da3c3a6707298d4",
+    "descricao": "De Dragon Ball",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!vegeta",
+    "id": "271b68dee5ec48038689e067f53df1a6",
+    "descricao": "De Dragon Ball",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!gohan",
+    "id": "f8f4f6ebba814970998f60c7f78503f2",
+    "descricao": "De Dragon Ball",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!cell",
+    "id": "63c6e3aa2d834a1198c4cf53e04c507e",
+    "descricao": "De Dragon Ball",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!freezaptpt",
+    "id": "aa93d0a7223f4dcdbede634e35156933",
+    "descricao": "De Dragon Ball",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!naruto",
+    "id": "bcb3ac264a124959a52c762a9ccb4ae2",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!naruto_2",
+    "id": "d339e19362fc42dc8e3f4a6be653ff83",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!naruto_3",
+    "id": "a77c3b29025d4166b487205b4eb7fa5b",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!sasuke",
+    "id": "ba8d2df5c9744ec89cd80399fd41e2f2",
+    "descricao": "De Naruto",
+    "volume": 20,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!hinata",
+    "id": "9bf82ae115c049e0ba853a2813cb6ead",
+    "descricao": "De Naruto",
+    "volume": 25,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!tsunade",
+    "id": "5fb01991253b418ca095be6e69798caf",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!rock_lee",
+    "id": "34a7006fe942447790d5e12a0f2cc13c",
+    "descricao": "De Naruto",
+    "volume": 15,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!maito_gai",
+    "id": "16710ec3b2764cf8a1fe36effb93dcbe",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!maito_gai_triste",
+    "id": "3b685c3bf6e748f29f7de2031b92c3ab",
+    "descricao": "De Naruto",
+    "volume": 5,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!kakashi",
+    "id": "160cd0c2f8b448339211889edb51794a",
+    "descricao": "De Naruto",
+    "volume": 5,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!zabuza",
+    "id": "ed06a5a86a1a45c0ae555b9863ffb70f",
+    "descricao": "De Naruto",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Naruto"
+  },
+  {
+    "nome": "!gojo",
+    "id": "2d7d220a6f44440da76a8b969318c19c",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!gojo_2",
+    "id": "23582b7e1db44054bb522f19c9def4c8",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!gojo_3",
+    "id": "713f7cec1ced4ecfb6daa6ef31ab81f0",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!satoru_gojo",
+    "id": "96a2c896ed7846848cdd83e484b23eb3",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!sukuna",
+    "id": "3a164c7d00b2437682042ebd01755521",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!sukuna_2",
+    "id": "24c2c79c666a4211baafc29de0cea1c6",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!sukuna_3",
+    "id": "51f868b27c454c5fb03db8b4165ced82",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!megumi",
+    "id": "59f817d7b8b64ed19b326cecbfe7e023",
+    "descricao": "De Jujutsu Kaisen",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jujutsu Kaisen"
+  },
+  {
+    "nome": "!shinobu",
+    "id": "ecb37eaae11944719577bf7d3877eebd",
+    "descricao": "De Demon Slayer",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Demon Slayer"
+  },
+  {
+    "nome": "!mitsuri",
+    "id": "1c2f5d6f9c7f492f86853ba178ed11a3",
+    "descricao": "De Demon Slayer",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Demon Slayer"
+  },
+  {
+    "nome": "!lawliet",
+    "id": "13da3b0542614c5ab9d4a067f1e5434a",
+    "descricao": "De Death Note",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Death Note"
+  },
+  {
+    "nome": "!lawliet_2",
+    "id": "4e8e6f7ce2b4444bacdc8b9f47922657",
+    "descricao": "De Death Note",
+    "volume": 15,
+    "categoria": "Animes",
+    "subcategoria": "Death Note"
+  },
+  {
+    "nome": "!misa_amane",
+    "id": "1cca564d58a64379a2445ff67a783347",
+    "descricao": "De Death Note",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Death Note"
+  },
+  {
+    "nome": "!itoshi_sae",
+    "id": "2bb270d0dc344007b53ae25cd00a4e85",
+    "descricao": "De Blue Lock",
+    "volume": 5,
+    "categoria": "Animes",
+    "subcategoria": "Blue Lock"
+  },
+  {
+    "nome": "!bachira",
+    "id": "b1909f6b79e74e1eb54a77023634a6d8",
+    "descricao": "De Blue Lock",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Blue Lock"
+  },
+  {
+    "nome": "!ash",
+    "id": "ef5844fb5fa84e07b9af0da3ae471374",
+    "descricao": "De Pokémon",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Pokémon"
+  },
+  {
+    "nome": "!kaiba",
+    "id": "7065be6d3c1e477e994b0bd06c46c424",
+    "descricao": "De Yu-Gi-Oh!",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Yu-Gi-Oh!"
+  },
+  {
+    "nome": "!hika_inoue",
+    "id": "3ca4ebe561dd4b6dbfa9b0b8830f97f6",
+    "descricao": "De Seraph of the End",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Seraph of the End"
+  },
+  {
+    "nome": "!jotaro",
+    "id": "e656abf4f8984062be68037e60824b9a",
+    "descricao": "De Jojo's",
+    "volume": 0,
+    "categoria": "Animes",
+    "subcategoria": "Jojo's"
+  },
+  {
+    "nome": "!dio",
+    "id": "9df3e895773143b08e3f4380d3965ff1",
+    "descricao": "De Jojo's",
+    "volume": 5,
+    "categoria": "Animes",
+    "subcategoria": "Jojo's"
+  },
+  {
+    "nome": "!zerotwo",
+    "id": "5621560b78b04b6a800fea3f80b4e523",
+    "descricao": "De Darling in the Franxx",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Darling in the Franxx"
+  },
+  {
+    "nome": "!miku",
+    "id": "a2e2bed323bd4a3a88e9b05117a4ba73",
+    "descricao": "Vocaloid",
+    "volume": 0,
+    "categoria": "Música",
+    "subcategoria": "Vocaloid"
+  },
+  {
+    "nome": "!miku_2",
+    "id": "befa4b55cf55459a89c56dab73bbe8b0",
+    "descricao": "Vocaloid",
+    "volume": 0,
+    "categoria": "Música",
+    "subcategoria": "Vocaloid"
+  },
+  {
+    "nome": "!miku_3",
+    "id": "f326449345af4b34a7e32621317c2553",
+    "descricao": "Vocaloid",
+    "volume": 0,
+    "categoria": "Música",
+    "subcategoria": "Vocaloid"
+  },
+  {
+    "nome": "!teto",
+    "id": "65ce08eac21b46bd8c9c29ab96b6f55a",
+    "descricao": "UTAU / Vocaloid",
+    "volume": -5,
+    "categoria": "Música",
+    "subcategoria": "Vocaloid"
+  },
+  {
+    "nome": "!rick",
+    "id": "bdb4986093f8403d8dad0858c0628aa1",
+    "descricao": "De Rick and Morty",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!rick_2",
+    "id": "9318b32b5477496a960e2958dd51c7ea",
+    "descricao": "De Rick and Morty",
+    "volume": 5,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!evil_morty",
+    "id": "34297b3f252348029d4f3703136d4507",
+    "descricao": "De Rick and Morty",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!scooby_doo",
+    "id": "dca65ae27aea4c0ebda502d71f90a43e",
+    "descricao": "De Scooby-Doo",
+    "volume": 15,
+    "categoria": "Desenhos",
+    "subcategoria": "Scooby-Doo"
+  },
+  {
+    "nome": "!scooby_doo_2",
+    "id": "433ef9237879464fb8a14635e5ccf905",
+    "descricao": "De Scooby-Doo",
+    "volume": 25,
+    "categoria": "Desenhos",
+    "subcategoria": "Scooby-Doo"
+  },
+  {
+    "nome": "!salsicha",
+    "id": "ccfee7542e51426980391b9c6b40a220",
+    "descricao": "De Scooby-Doo",
+    "volume": 15,
+    "categoria": "Desenhos",
+    "subcategoria": "Scooby-Doo"
+  },
+  {
+    "nome": "!pernalonga",
+    "id": "56e5d3254c474a989317ebfdbd2d9fac",
+    "descricao": "De Looney Tunes",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Looney Tunes"
+  },
+  {
+    "nome": "!pernalonga_2",
+    "id": "cdcd7feec6014725902e06f6335a548f",
+    "descricao": "De Looney Tunes",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Looney Tunes"
+  },
+  {
+    "nome": "!pernalonga_3",
+    "id": "bc64f4ca7f864afb88453e2f038d6382",
+    "descricao": "De Looney Tunes",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Looney Tunes"
+  },
+  {
+    "nome": "!patolino",
+    "id": "359bd63839734c4e97d41f4b91e520ea",
+    "descricao": "De Looney Tunes",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Looney Tunes"
+  },
+  {
+    "nome": "!homer_simpson",
+    "id": "be1847570ec04056bbc618d66496fda4",
+    "descricao": "De Os Simpsons",
+    "volume": 15,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!homer_simpson_2",
+    "id": "3064bbcd3fbe4f34afd4291d24f93235",
+    "descricao": "De Os Simpsons",
+    "volume": 20,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!peter_griffin",
+    "id": "6a88fe5df52d49d3a063241edc9f32b9",
+    "descricao": "De Family Guy",
+    "volume": 20,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!cartman",
+    "id": "41ee86659d5d4c50a54950ff66d13b36",
+    "descricao": "De South Park",
+    "volume": 35,
+    "categoria": "Desenhos",
+    "subcategoria": "Desenhos adultos"
+  },
+  {
+    "nome": "!fluttershy",
+    "id": "3351971c57f64d14ada2628fdc770112",
+    "descricao": "De My Little Pony",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "My Little Pony"
+  },
+  {
+    "nome": "!fluttershy_2",
+    "id": "df0b34b3773b4d0ca02c3583074e3807",
+    "descricao": "De My Little Pony",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "My Little Pony"
+  },
+  {
+    "nome": "!twilight",
+    "id": "1f7c937ef3534107aea722e20934ca47",
+    "descricao": "De My Little Pony",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "My Little Pony"
+  },
+  {
+    "nome": "!rarity",
+    "id": "16b5627505324cae82edc5d02311564a",
+    "descricao": "De My Little Pony",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "My Little Pony"
+  },
+  {
+    "nome": "!sunny",
+    "id": "b7105f831b9644f28b0a92e004d9fd94",
+    "descricao": "De My Little Pony",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "My Little Pony"
+  },
+  {
+    "nome": "!pato_donald",
+    "id": "113e63bd38eb43d2a6ea06af048fb2ab",
+    "descricao": "Da Disney",
+    "volume": 35,
+    "categoria": "Desenhos",
+    "subcategoria": "Disney"
+  },
+  {
+    "nome": "!coragem",
+    "id": "214ce39f5b6b4cd08dc134b2fa359ebb",
+    "descricao": "De Coragem, o Cão Covarde",
+    "volume": 25,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros desenhos"
+  },
+  {
+    "nome": "!gumball",
+    "id": "590257092d464651a5e69ed20ffc2bc9",
+    "descricao": "De O Incrível Mundo Gumball",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros desenhos"
+  },
+  {
+    "nome": "!mcqueen",
+    "id": "0f8ff557a0f04d8b86fcb8a9212a86dc",
+    "descricao": "De Carros",
+    "volume": 20,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Animações de cinema"
+  },
+  {
+    "nome": "!mate",
+    "id": "680b01675b3545cab548b4ecad35136e",
+    "descricao": "De Carros",
+    "volume": 20,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Animações de cinema"
+  },
+  {
+    "nome": "!madagascar",
+    "id": "cfd8b26a1be648b89c65fe060d85fda7",
+    "descricao": "De Madagascar",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Animações de cinema"
+  },
+  {
+    "nome": "!alvin",
+    "id": "97c9af2420154aa4a08d4eff7424b5c0",
+    "descricao": "De Alvin e os Esquilos",
+    "volume": 100,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros desenhos"
+  },
+  {
+    "nome": "!theodore",
+    "id": "936714d6f99d4cacbc8cc1d2225a2da4",
+    "descricao": "De Alvin e os Esquilos",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros desenhos"
+  },
+  {
+    "nome": "!dora",
+    "id": "4cad4fb6e32843d9808175db9fba23f8",
+    "descricao": "De Dora a Aventureira",
+    "volume": 0,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros desenhos"
+  },
+  {
+    "nome": "!luigi",
+    "id": "e3d16e778fe3432a8f16299ef7f3b298",
+    "descricao": "Melhor em inglês",
+    "volume": -20,
+    "categoria": "Games",
+    "subcategoria": "Nintendo"
+  },
+  {
+    "nome": "!cj",
+    "id": "e632a33e32b442afb45d52d112d5290f",
+    "descricao": "Melhor em inglês",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "GTA San Andreas"
+  },
+  {
+    "nome": "!big_smoke",
+    "id": "67e2bd8effb54ab181debf02cd09aaee",
+    "descricao": "Melhor em inglês",
+    "volume": 10,
+    "categoria": "Games",
+    "subcategoria": "GTA San Andreas"
+  },
+  {
+    "nome": "!leon",
+    "id": "28c9b4bd70ee4456977c6c73d1f4be5b",
+    "descricao": "De Resident Evil",
+    "volume": 10,
+    "categoria": "Games",
+    "subcategoria": "Resident Evil"
+  },
+  {
+    "nome": "!ashley",
+    "id": "6e7a90796a1347cd928b596fb5d57681",
+    "descricao": "De Resident Evil",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "Resident Evil"
+  },
+  {
+    "nome": "!alice",
+    "id": "2e7633e6dcdc40238d172e55e231b73b",
+    "descricao": "De Resident Evil",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "Resident Evil"
+  },
+  {
+    "nome": "!kratos",
+    "id": "fe39d25ddca544eea68ac000575b656e",
+    "descricao": "De God of War",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "God of War"
+  },
+  {
+    "nome": "!kratosstr",
+    "id": "b88c9c6d02164a57a221c118cb85c244",
+    "descricao": "De God of War",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "God of War"
+  },
+  {
+    "nome": "!lux",
+    "id": "8a41f627200d4daf854c728310cd4b43",
+    "descricao": "De League of Legends",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "League of Legends"
+  },
+  {
+    "nome": "!braum",
+    "id": "ed581633588444438697ff852a8b812e",
+    "descricao": "De League of Legends",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "League of Legends"
+  },
+  {
+    "nome": "!ziggs",
+    "id": "626c495445e545a7a7c7be1d12d25c2d",
+    "descricao": "De League of Legends",
+    "volume": 0,
+    "categoria": "Games",
+    "subcategoria": "League of Legends"
+  },
+  {
+    "nome": "!sonic",
+    "id": "020ae7c097e644878745ae909ffaad15",
+    "descricao": "De Sonic",
+    "volume": 20,
+    "categoria": "Games",
+    "subcategoria": "Outros games"
+  },
+  {
+    "nome": "!geralt",
+    "id": "d87fbdf889d14f9e94922945fb0a9a62",
+    "descricao": "De The Witcher",
+    "volume": 25,
+    "categoria": "Games",
+    "subcategoria": "Outros games"
+  },
+  {
+    "nome": "!mortal_kombat",
+    "id": "d13f84b987ad4f22b56d2b47f4eb838e",
+    "descricao": "Melhor com palavras únicas",
+    "volume": -5,
+    "categoria": "Games",
+    "subcategoria": "Outros games"
+  },
+  {
+    "nome": "!mita",
+    "id": "ea3bf7f7c7af4b59be4715013e1c4428",
+    "descricao": "De MiSide",
+    "volume": 10,
+    "categoria": "Games",
+    "subcategoria": "Outros games"
+  },
+  {
+    "nome": "!aranha",
+    "id": "7c29d3e923b44be1b3de8f40581819ef",
+    "descricao": "De Homem-Aranha",
+    "volume": 40,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Marvel e DC"
+  },
+  {
+    "nome": "!aranha_2",
+    "id": "e8f56d284e334c11a1eb442b7ee0cc8b",
+    "descricao": "De Homem-Aranha",
+    "volume": 10,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Marvel e DC"
+  },
+  {
+    "nome": "!deadpool",
+    "id": "37b9fb2bdfc64bd5890a276df53305cc",
+    "descricao": "De Deadpool",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Marvel e DC"
+  },
+  {
+    "nome": "!coringa",
+    "id": "fade11b01b5a4e43bb70e618c3e28662",
+    "descricao": "Da DC Comics",
+    "volume": 15,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Marvel e DC"
+  },
+  {
+    "nome": "!jarvis",
+    "id": "a5b93aeddcc948c19ea04f0afe9d178c",
+    "descricao": "De Homem de Ferro",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Marvel e DC"
+  },
+  {
+    "nome": "!patria",
+    "id": "6c39429a74cb47e1b45f70023f7abf06",
+    "descricao": "De The Boys",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "The Boys"
+  },
+  {
+    "nome": "!walterwhite",
+    "id": "937d6d390f1c4d819fc68455a5ee0609",
+    "descricao": "De Breaking Bad",
+    "volume": 5,
+    "categoria": "Séries de TV",
+    "subcategoria": "Breaking Bad"
+  },
+  {
+    "nome": "!sam",
+    "id": "cf5bc270f5e54a759d7d496e07874cb8",
+    "descricao": "De Sobrenatural",
+    "volume": 20,
+    "categoria": "Séries de TV",
+    "subcategoria": "Sobrenatural"
+  },
+  {
+    "nome": "!dean",
+    "id": "58cba51bbf174ada85e97b2fa2bc58e5",
+    "descricao": "De Sobrenatural",
+    "volume": 0,
+    "categoria": "Séries de TV",
+    "subcategoria": "Sobrenatural"
+  },
+  {
+    "nome": "!capitao",
+    "id": "102bccca7dc64b6b8f8494c199c5d153",
+    "descricao": "De Tropa de Elite",
+    "volume": 10,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Outros filmes"
+  },
+  {
+    "nome": "!bibo",
+    "id": "e8d514263b0e46bcba8efeec1b0b25fc",
+    "descricao": "De O Senhor dos Anéis",
+    "volume": 15,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Outros filmes"
+  },
+  {
+    "nome": "!pinoquio",
+    "id": "af24c9188cfd4db3bd4102b7774c7e14",
+    "descricao": "De Shrek",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Animações de cinema"
+  },
+  {
+    "nome": "!harry",
+    "id": "03e6eaa7aeb149a1a8d13c166a5d947e",
+    "descricao": "De Harry Potter",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Harry Potter"
+  },
+  {
+    "nome": "!dumbledore",
+    "id": "09f434f3a5e54e1b9edec38bf056cd27",
+    "descricao": "De Harry Potter",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Harry Potter"
+  },
+  {
+    "nome": "!hermione",
+    "id": "6666f8a82660455cb125eb8502d5519d",
+    "descricao": "De Harry Potter",
+    "volume": 0,
+    "categoria": "Filmes e Heróis",
+    "subcategoria": "Harry Potter"
+  },
+  {
+    "nome": "!navi",
+    "id": "9c1dfe95a80a4de39897730d8343d714",
+    "descricao": "De Zelda (inglês)",
+    "volume": 15,
+    "categoria": "Games",
+    "subcategoria": "Nintendo"
+  },
+  {
+    "nome": "!saocipriano",
+    "id": "0b12d715e4c741399594fccb12d4bbe2",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!cid_moreira",
+    "id": "85ecdf7683d64d0884d818971dbfddb4",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!jorge_igor",
+    "id": "0c42955c25954d82a7eb09dc47c43164",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!craque_neto",
+    "id": "f996e8f8f2f24f1282e134802e4602c7",
+    "descricao": "Craque Neto",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Esportes"
+  },
+  {
+    "nome": "!narrador_historias",
+    "id": "0ba1afd27db44eb2b4cb27fd331b93aa",
+    "descricao": "Narrador",
+    "volume": 10,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!contos_terror",
+    "id": "4d72497e3ceb4c75a7c5563900975afd",
+    "descricao": "Narrador",
+    "volume": 5,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!impacto",
+    "id": "f105557f5588463993a92c2dab364544",
+    "descricao": "Narrador",
+    "volume": -5,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!alberto",
+    "id": "95e01d953caa4e6498d51635808c0da9",
+    "descricao": "Narrador",
+    "volume": -5,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!voz_grossa",
+    "id": "b59c8403f2354d46ba0003589b947316",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!waldo",
+    "id": "04736e4d6a644abab81e601a7d2ae4b9",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!waldo_2",
+    "id": "ea05dafdf78c4834a8b94a3dcb763843",
+    "descricao": "Narrador",
+    "volume": 0,
+    "categoria": "Narradores",
+    "subcategoria": "Narração"
+  },
+  {
+    "nome": "!silvio_santos",
+    "id": "4d6c859e0cba41559262db895f5526fd",
+    "descricao": "Apresentador de TV",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "TV e jornalismo"
+  },
+  {
+    "nome": "!faustão",
+    "id": "75aac43d2b92495db1693ef26d1a1f1e",
+    "descricao": "Apresentador de TV",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "TV e jornalismo"
+  },
+  {
+    "nome": "!sbt",
+    "id": "01e164e5bebc4adbbd5ea6168ea188fb",
+    "descricao": "Emissora de TV",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "TV e jornalismo"
+  },
+  {
+    "nome": "!galvao_bueno",
+    "id": "7fe10a00249247aabb495bae57ac80e1",
+    "descricao": "Narrador esportivo",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Esportes"
+  },
+  {
+    "nome": "!bonner",
+    "id": "7d172aacf0154382a7cf02f6a540878d",
+    "descricao": "Jornalista",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "TV e jornalismo"
+  },
+  {
+    "nome": "!globinho",
+    "id": "7f17748d77314050a6751a033d859b81",
+    "descricao": "Vinheta de TV",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "TV e jornalismo"
+  },
+  {
+    "nome": "!lula",
+    "id": "a4ac1426e4a749839c86853ad613eebe",
+    "descricao": "Político",
+    "volume": 10,
+    "categoria": "Personalidades",
+    "subcategoria": "Política"
+  },
+  {
+    "nome": "!lula_2",
+    "id": "ed7de8309b7f4643932df8f4b56ac988",
+    "descricao": "Político",
+    "volume": 50,
+    "categoria": "Personalidades",
+    "subcategoria": "Política"
+  },
+  {
+    "nome": "!bolsonaro",
+    "id": "ba23a5c7ba41404188f937d78a4b159a",
+    "descricao": "Político",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Política"
+  },
+  {
+    "nome": "!eneas",
+    "id": "3ac673c5ea474038bed1b11f6dc95974",
+    "descricao": "Político",
+    "volume": -5,
+    "categoria": "Personalidades",
+    "subcategoria": "Política"
+  },
+  {
+    "nome": "!dilma",
+    "id": "f2e67dd39144401f849f921e1cdb6e51",
+    "descricao": "Político",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Política"
+  },
+  {
+    "nome": "!michael_jackson",
+    "id": "af1d2052ea8d441a972ca51a5bf547e4",
+    "descricao": "Cantor",
+    "volume": 20,
+    "categoria": "Música",
+    "subcategoria": "Cantores e rappers"
+  },
+  {
+    "nome": "!michael_jackson_2",
+    "id": "363fdb8fec3241dd9f8268f25f4f382d",
+    "descricao": "Cantor",
+    "volume": 25,
+    "categoria": "Música",
+    "subcategoria": "Cantores e rappers"
+  },
+  {
+    "nome": "!michael_jackson_3",
+    "id": "5c8f55c6d56f469f929d81b569eeb127",
+    "descricao": "Cantor",
+    "volume": 5,
+    "categoria": "Música",
+    "subcategoria": "Cantores e rappers"
+  },
+  {
+    "nome": "!mano_brown",
+    "id": "19a49ec051614f8e93db863f5cd17edf",
+    "descricao": "Rapper",
+    "volume": 10,
+    "categoria": "Música",
+    "subcategoria": "Cantores e rappers"
+  },
+  {
+    "nome": "!neymar",
+    "id": "2bd0cd1a49474aeab129894f4512e8a6",
+    "descricao": "Jogador de futebol",
+    "volume": 20,
+    "categoria": "Personalidades",
+    "subcategoria": "Esportes"
+  },
+  {
+    "nome": "!cristiano_ronaldo",
+    "id": "f800d4c9e73b4dbd849be082315629c4",
+    "descricao": "Jogador de futebol",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Esportes"
+  },
+  {
+    "nome": "!cortella",
+    "id": "07686262fde04028a3a5c3a0c6e7c611",
+    "descricao": "Filósofo",
+    "volume": 20,
+    "categoria": "Personalidades",
+    "subcategoria": "Educação e ciência"
+  },
+  {
+    "nome": "!cortella_2",
+    "id": "6e4ca3680611414a97ebf4b9e312c211",
+    "descricao": "Filósofo",
+    "volume": 5,
+    "categoria": "Personalidades",
+    "subcategoria": "Educação e ciência"
+  },
+  {
+    "nome": "!serjão_foguetes",
+    "id": "0ba34a9c6d794a73b8ec8f5b53829659",
+    "descricao": "Divulgador científico",
+    "volume": 5,
+    "categoria": "Personalidades",
+    "subcategoria": "Educação e ciência"
+  },
+  {
+    "nome": "!ibere",
+    "id": "0889ee96fd82421b8ad9e126c4d73312",
+    "descricao": "Manual do Mundo",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Educação e ciência"
+  },
+  {
+    "nome": "!casimiro",
+    "id": "ac1ad6257d8b4df08508f9ce24b39758",
+    "descricao": "Streamer",
+    "volume": -5,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!super_xandão",
+    "id": "1098ba8022ff4127a89e5d2116db2adb",
+    "descricao": "Streamer",
+    "volume": -15,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!mrbeast",
+    "id": "4caa3bfc069a4511a65ac6310a33e661",
+    "descricao": "Youtuber",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!vinheteiro",
+    "id": "bc0b6d0159c744efb2cf5a363ef9f783",
+    "descricao": "Youtuber",
+    "volume": 10,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!jj",
+    "id": "ad8a967fb59943ce928205d0032f1ec8",
+    "descricao": "Youtuber",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!eslen",
+    "id": "f7a46141196545c9aa33ce8dca7b92ad",
+    "descricao": "Youtuber",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!nando_moura",
+    "id": "de2855655ce04bd18bff29e6915410ad",
+    "descricao": "Youtuber",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!monark",
+    "id": "1dc21c22fef24f9abc4e07d2c56c6190",
+    "descricao": "Youtuber",
+    "volume": -20,
+    "categoria": "Personalidades",
+    "subcategoria": "Youtubers e streamers"
+  },
+  {
+    "nome": "!serjão_berranteiro",
+    "id": "62e0662807c94e6cb505033c5a7c9a9b",
+    "descricao": "Meme da internet",
+    "volume": -5,
+    "categoria": "Personalidades",
+    "subcategoria": "Humor e memes"
+  },
+  {
+    "nome": "!away",
+    "id": "73a52b2201ae48cf805cb4e7fbfedf2b",
+    "descricao": "Humorista",
+    "volume": 0,
+    "categoria": "Personalidades",
+    "subcategoria": "Humor e memes"
+  },
+  {
+    "nome": "!michael_caio",
+    "id": "25e0e359fef14285bec5d780be39ac47",
+    "descricao": "De Eu, a Patroa e as Crianças",
+    "volume": 10,
+    "categoria": "Séries de TV",
+    "subcategoria": "Eu, a Patroa e as Crianças"
+  },
+  {
+    "nome": "!isabela",
+    "id": "5661bf8cb97740fcb10d2f756abf7779",
+    "descricao": "Voz feminina",
+    "volume": 100,
+    "categoria": "Outras vozes",
+    "subcategoria": "Outras vozes"
+  },
+  {
+    "nome": "!tiktok",
+    "id": "7344de0f70a84483975a5163f2a21837",
+    "descricao": "Voz do TikTok",
+    "volume": 10,
+    "categoria": "Outras vozes",
+    "subcategoria": "Outras vozes"
+  },
+  {
+    "nome": "!vovojuju",
+    "id": "c87969f13fa44cd0841fc160fcef3526",
+    "descricao": "Voz da Vovó Juju",
+    "volume": 10,
+    "categoria": "Desenhos",
+    "subcategoria": "Irmão do Jorel"
+  },
+  {
+    "nome": "!majinboo",
+    "id": "1c60bb473aef4efe8817ccc670f1a716",
+    "descricao": "Voz do Majin Boo",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Dragon Ball"
+  },
+  {
+    "nome": "!saga",
+    "id": "ac1898c6f773454c964d0f252f2fb6aa",
+    "descricao": "Voz do Saga de gemeos",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Os Cavaleiros do Zodíaco"
+  },
+  {
+    "nome": "!seiya",
+    "id": "5d36b71b298e4428befb4aeee5afb006",
+    "descricao": "Voz do Seiya de Pegasus",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Os Cavaleiros do Zodíaco"
+  },
+  {
+    "nome": "!ikki",
+    "id": "410d94efdab3405192987667e163b405",
+    "descricao": "Voz do Ikki de Fênix",
+    "volume": 10,
+    "categoria": "Animes",
+    "subcategoria": "Os Cavaleiros do Zodíaco"
+  },
+  {
+    "nome": "!mickey",
+    "id": "6bdf37402f6041b9bd3e2de6f6dc693c",
+    "descricao": "Voz do Mickey Mouse",
+    "volume": 10,
+    "categoria": "Desenhos",
+    "subcategoria": "Disney"
+  },
+  {
+    "nome": "!irmaodojorel",
+    "id": "d23feddf3ac24550b05baff5a5cb31e8",
+    "descricao": "Voz do Irmão do Jorel",
+    "volume": 10,
+    "categoria": "Desenhos",
+    "subcategoria": "Irmão do Jorel"
+  },
+  {
+    "nome": "!peppapig",
+    "id": "2cd5dd28b32a49c088b9d63e011e9086",
+    "descricao": "Voz da Peppa Pig",
+    "volume": 10,
+    "categoria": "Desenhos",
+    "subcategoria": "Outros"
+  },
+  {
+    "nome": "!joaofrango",
+    "id": "3cd37df623144626b4c9d12e22dbe898",
+    "descricao": "Voz do João Frango",
+    "volume": 10,
+    "categoria": "Desenhos",
+    "subcategoria": "Rio"
+  }
+]

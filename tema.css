@@ -1,0 +1,205 @@
+/* Tema compartilhado: visual das lives (azul-noite, neon roxo/azul, painéis HUD) */
+
+:root{
+  --abismo:#050718;
+  --painel:#080b27;
+  --roxo:#a64dff;
+  --magenta:#e34bff;
+  --azul:#3b6bff;
+  --ciano:#25d4ff;
+  --texto:#e9ebff;
+  --mudo:#8c92c6;
+  --erro:#ff7a9a;
+  --ok:#3ddc97;
+  --linha:rgba(120,110,255,.32);
+  --borda:linear-gradient(135deg,rgba(166,77,255,.85),rgba(59,107,255,.7) 55%,rgba(37,212,255,.5));
+  --borda-forte:linear-gradient(135deg,#d06bff,#5d86ff 55%,#4fe0ff);
+  --titulos:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;
+  --textos:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{color-scheme:dark}
+
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--texto);
+  font:400 16px/1.5 var(--textos);
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(900px 480px at 6% -6%,rgba(166,77,255,.22),transparent 62%),
+    radial-gradient(1000px 620px at 100% 100%,rgba(59,107,255,.18),transparent 62%),
+    var(--abismo);
+}
+
+/* chão em perspectiva, igual ao palco da live */
+body::before{
+  content:"";
+  position:fixed;
+  left:-10%;right:-10%;bottom:0;
+  height:46vh;
+  z-index:-1;
+  pointer-events:none;
+  opacity:.3;
+  background:
+    linear-gradient(to right,rgba(90,110,255,.55) 1px,transparent 1px) 0 0/72px 100%,
+    linear-gradient(to bottom,rgba(90,110,255,.55) 1px,transparent 1px) 0 0/100% 44px;
+  transform:perspective(420px) rotateX(64deg);
+  transform-origin:50% 100%;
+  -webkit-mask-image:linear-gradient(to top,#000 0,transparent 80%);
+  mask-image:linear-gradient(to top,#000 0,transparent 80%);
+}
+
+/* linhas de varredura bem sutis */
+body::after{
+  content:"";
+  position:fixed;inset:0;
+  z-index:50;
+  pointer-events:none;
+  background:repeating-linear-gradient(to bottom,rgba(255,255,255,.022) 0 1px,transparent 1px 3px);
+}
+
+a{color:#9fb4ff}
+a:hover{color:var(--ciano)}
+
+.pagina{position:relative;max-width:1120px;margin:0 auto;padding:18px 20px 56px}
+
+/* ---------- topo ---------- */
+.topo{
+  position:relative;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;
+  padding-bottom:14px;
+}
+.topo::after{
+  content:"";
+  position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,var(--magenta),var(--azul) 45%,transparent);
+  transform-origin:left;
+  animation:traco .9s ease-out both;
+}
+@keyframes traco{from{transform:scaleX(0)}}
+
+.marca{display:block;line-height:0}
+.marca img{height:92px;width:auto;filter:drop-shadow(0 0 14px rgba(124,80,255,.35))}
+.marca:focus-visible{outline:2px solid var(--ciano);outline-offset:4px}
+
+.nav-abas{display:flex;gap:6px}
+
+/* ---------- abas em seta (como as etiquetas dos painéis da live) ---------- */
+.aba{
+  appearance:none;border:0;cursor:pointer;
+  display:inline-block;
+  padding:10px 28px 10px 16px;
+  font:600 17px/1 var(--titulos);
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--mudo);
+  background:rgba(90,100,220,.14);
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 50%,calc(100% - 14px) 100%,0 100%);
+  transition:color .15s,background .15s;
+}
+.aba:hover{color:var(--texto);background:rgba(110,110,255,.26)}
+.aba[aria-pressed="true"],
+.aba[aria-current="page"]{color:#fff;background:linear-gradient(90deg,var(--roxo),var(--azul))}
+.aba:focus-visible{outline:none;color:#fff;background:rgba(37,212,255,.3);box-shadow:inset 0 -3px 0 var(--ciano)}
+
+/* ---------- painel HUD: borda neon com canto cortado ---------- */
+.hud{
+  --co:12px;
+  --c:var(--co);
+  padding:1.5px;
+  background:var(--borda);
+  clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c));
+}
+.hud-in{
+  --c:calc(var(--co) - .9px);
+  height:100%;
+  background:linear-gradient(180deg,#0b1032,#070a24);
+  clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c));
+}
+
+/* ---------- títulos de seção ---------- */
+.titulo{display:flex;align-items:center;gap:14px;margin:34px 0 4px}
+.titulo::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,rgba(59,107,255,.8),transparent)}
+.titulo h2{
+  margin:0;
+  padding:9px 30px 9px 16px;
+  font:600 22px/1 var(--titulos);
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  background:linear-gradient(90deg,rgba(166,77,255,.45),rgba(30,40,120,.55));
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 50%,calc(100% - 14px) 100%,0 100%);
+}
+
+/* ---------- formulário ---------- */
+.entrada{
+  width:100%;
+  font:500 16px/1.4 var(--textos);
+  color:var(--texto);
+  background:rgba(5,7,24,.85);
+  border:1px solid var(--linha);
+  border-radius:2px;
+  padding:10px 12px;
+}
+.entrada:focus{outline:none;border-color:var(--ciano);box-shadow:0 0 0 3px rgba(37,212,255,.15)}
+textarea.entrada{resize:vertical;min-height:110px}
+select.entrada{appearance:auto}
+
+.botao{
+  appearance:none;border:0;cursor:pointer;
+  padding:12px 26px;
+  font:600 18px/1 var(--titulos);
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  color:#fff;
+  background:linear-gradient(90deg,var(--roxo),var(--azul));
+  clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);
+  transition:filter .15s;
+}
+.botao:hover{filter:brightness(1.18)}
+.botao:disabled{opacity:.55;cursor:progress}
+.botao:focus-visible{outline:none;box-shadow:inset 0 0 0 2px var(--ciano)}
+.botao--sec{background:rgba(90,100,220,.22);color:var(--texto)}
+
+/* ---------- rodapé e avisos ---------- */
+.rodape{
+  margin-top:56px;
+  padding-top:16px;
+  text-align:center;
+  font-size:14px;
+  color:var(--mudo);
+  background:linear-gradient(90deg,transparent,rgba(59,107,255,.8),transparent) top/100% 1px no-repeat;
+}
+.rodape p{margin:0 0 6px}
+.rodape .aviso{font-size:12.5px;opacity:.8}
+
+#toast{
+  position:fixed;left:50%;bottom:24px;z-index:60;
+  transform:translateX(-50%);
+  padding:9px 18px;
+  font:500 15px var(--textos);
+  color:var(--texto);
+  background:#0b1032;
+  border:1px solid var(--linha);
+  opacity:0;pointer-events:none;
+  transition:opacity .2s;
+}
+#toast.show{opacity:1}
+
+@keyframes gira{to{transform:rotate(360deg)}}
+.gira{animation:gira 1s linear infinite}
+
+@media (max-width:640px){
+  .pagina{padding:12px 14px 44px}
+  .marca img{height:70px}
+  .aba{font-size:16px;padding:9px 24px 9px 13px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .topo::after{animation:none}
+  .gira{animation-duration:2.5s}
+}
